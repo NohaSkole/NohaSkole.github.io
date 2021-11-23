@@ -1,0 +1,64 @@
+
+#wrapper { 
+    width: 920px; 
+    height: auto; 
+    margin: 0 auto;
+} 
+#home1 { 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+    margin-right: 5%;
+} 
+
+#home2 { 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+}
+
+.clear1{
+    clear: both;
+}
+
+@media (max-width:767px) {
+    #wrapper{
+        width: 100%;
+        height: auto;
+    }
+    #home1 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    #home2 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+}
+
+
+
+
+.Datatilsynet {
+font-size: 20;
+
+}
+
+.Ola1 {
+	grid-area: Ola1;
+}
+
+.Ola2 {
+	grid-area: Ola2;
+}
+
+.grid_boks {
+	display: grid;
+	grid-template-areas: 
+		'Ola1 Ola2';
+
+}
+
+
